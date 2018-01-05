@@ -1,6 +1,6 @@
 body {
     background: white;
-    font-family: "tablet-gothic", Verdana, arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 85%;
 }
 
@@ -19,7 +19,7 @@ h1 {
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
     padding: 10px;
 }
@@ -52,12 +52,11 @@ h2 {
     display: flex;
 }
 
-.para1 {
+img {
     max-width: 460px;
+    max-height: 460px;
     box-sizing: border-box;
     padding: 30px 0px 0px 0px;
-    background-color: aliceblue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .description {
@@ -67,4 +66,13 @@ h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     color: #7C8B88;
+}
+
+h2.blogheader {
+    font-weight: 300;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    color: #7C8B88
 }
