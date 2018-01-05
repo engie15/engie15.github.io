@@ -76,3 +76,14 @@ h2.blogheader {
     padding: 0.5em 1em;
     color: #7C8B88
 }
+
+.col-3 {
+    width: 25%;
+}
+
+aside {
+    padding: 15px;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0px;
+}
