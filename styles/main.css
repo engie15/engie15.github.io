@@ -21,7 +21,7 @@ p {
 
 h1 {
     color: white;
-    padding: 15% 0% 15% 0%;
+    padding: 15% 0% 15% 1%;
 }
 
 h2 {
@@ -30,5 +30,33 @@ h2 {
 }
 
 .header {
-    background-image: url(https://engie15.github.io/images/St-Kilda-backdrop-3.jpg);
+    background-image: url(https://engie15.github.io/images/mt-martha.png);
+}
+
+.main-text {
+    margin-top: 2%;
+}
+
+.main-heading {
+    color: black;
+    border-bottom: 1%, solid;
+}
+
+.blog-title {
+    color: #999999;
+}
+
+.navbar {
+    position: sticky;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+    margin 0.4rem;
+}
+
+nav .navbar ul li {
+    display: inline;
+    position: relative;
 }
