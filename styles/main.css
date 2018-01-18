@@ -19,6 +19,16 @@ p {
     max-height: 450px;
 }
 
-.twelve columns {
-    background-image: url(https://engie15.github.io/images/)
+h1 {
+    color: white;
+    padding: 15% 0% 15% 0%;
+}
+
+h2 {
+    font-size: em;
+    color: white;
+}
+
+.header {
+    background-image: url(https://engie15.github.io/images/St-Kilda-backdrop-3.jpg);
 }
