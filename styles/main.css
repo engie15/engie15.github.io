@@ -13,12 +13,6 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-.image {
-    display: flex;
-    max-width: 900px;
-    max-height: 450px;
-}
-
 h1 {
     color: white;
     padding: 15% 0% 15% 2%;
@@ -164,4 +158,26 @@ ol {
     list-style: none;
     text-decoration: none;
     text-align: center;
+}
+
+h6 {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.six columns, ol {
+    margin-left: 5%;
+    margin-right: 4%;
+    margin-top: 0%;
+    padding-top: 1%;
+}
+
+li {
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
