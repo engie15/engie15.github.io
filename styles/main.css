@@ -77,10 +77,11 @@ ul {
     margin: 0.4rem;
 }
 
-li {
+.toplinks {
     display: inline;
     padding: 2% 4% 6% 4%;
     color: #999999;
+    list-style: none;
 }
 
 head {
@@ -129,6 +130,7 @@ h3 {
 .top {
     color: #999999;
     list-style: none;
+    text-decoration: none;
 }
 
 .content {
