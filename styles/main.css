@@ -71,14 +71,8 @@ a {
         max-width: 960px center;
     }
 }
-nav .navbar ul li {
-    display: inline-flex;
-    list-style-type: disc;
-    position: sticky;
-}
 
 ul {
-    list-style: none;
     text-align: right;
     margin: 0.4rem;
 }
@@ -123,15 +117,29 @@ h3 {
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 1%;
+    font-size: 1.5em;
 }
 
 .blog-content {
     padding-left: 3.5%;
     padding-right: 3.5%;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
 }
 
 .top {
     color: #999999;
     list-style: none;
+}
+
+.content {
+    color: black;
+    display: block;
+    text-align: left;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 4%;
+    list-style-type: circle;   
+}
+
+.index-page {
+    text-align: center;
 }
