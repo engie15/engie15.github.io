@@ -31,32 +31,78 @@ h2 {
 
 .header {
     background-image: url(https://engie15.github.io/images/mt-martha.png);
+    padding-top: 2%;
+    margin-top: 3%;
 }
 
 .main-text {
-    margin-top: 2%;
+    margin-top: 6.5%;
 }
 
 .main-heading {
-    color: black;
-    border-bottom: 1%, solid;
+    color: white;
+    border-bottom: 1% solid;
+    margin-top: 6%;
+    margin-left: 2%;
+    font-size: 2em;
 }
 
 .blog-title {
-    color: #999999;
+    font-size: 1.2em;
+    margin-left: 2.5%;
 }
 
-.navbar {
-    position: sticky;
+a {
+    color: rgb(125, 224, 224);
+}
+
+@media (max-width: 960px), (min-width: 550px) {
+    .navbar {
+        position: sticky;
+        padding-bottom: 1%;
+        border-bottom: 3px solid rgb(0, 109, 128);
+        max-width: 960px center;
+    }
+}
+nav .navbar ul li {
+    display: inline-flex;
+    list-style-type: disc;
 }
 
 ul {
     list-style: none;
     text-align: right;
-    margin 0.4rem;
+    margin: 0.4rem;
 }
 
-nav .navbar ul li {
+li {
     display: inline;
-    position: relative;
+    padding: 2% 4% 6% 4%;
+    color: #999999;
+}
+
+head {
+    background-color: #999999;
+}
+
+.navbarname {
+    display: inline;
+    color:#999999;
+}
+
+.blog {
+    background-color: rgb(0, 109, 128);
+}
+
+@media (min-width: 550px), (max-width: 960px) {
+    .bottom-banner{
+        background-color: rgb(0, 109, 128);
+    }
+}
+
+.bottom-banner {
+    color: white;
+    font-size: 1em;
+    padding-top: 6%;
+    padding-bottom: 3%;
 }
