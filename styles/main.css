@@ -21,7 +21,7 @@ p {
 
 h1 {
     color: white;
-    padding: 15% 0% 15% 1%;
+    padding: 15% 0% 15% 2%;
 }
 
 h2 {
@@ -96,7 +96,7 @@ head {
 
 @media (min-width: 550px), (max-width: 960px) {
     .bottom-banner{
-        background-color: rgb(0, 109, 128);
+        background-color:rgb(68, 64, 64);
     }
 }
 
