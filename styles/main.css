@@ -27,6 +27,13 @@ h1 {
 h2 {
     font-size: em;
     color: white;
+    padding-top: 1%;
+}
+
+.title {
+    background-color: rgb(0, 109, 128);
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .header {
@@ -67,6 +74,7 @@ a {
 nav .navbar ul li {
     display: inline-flex;
     list-style-type: disc;
+    position: sticky;
 }
 
 ul {
@@ -105,4 +113,25 @@ head {
     font-size: 1em;
     padding-top: 6%;
     padding-bottom: 3%;
+}
+
+.blog question {
+    background-color: white;
+}
+
+h3 {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+}
+
+.blog-content {
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    padding-bottom: 3%;
+}
+
+.top {
+    color: #999999;
+    list-style: none;
 }
