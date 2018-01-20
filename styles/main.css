@@ -19,7 +19,6 @@ h1 {
 }
 
 h2 {
-    font-size: em;
     color: white;
     padding-top: 1%;
 }
@@ -42,7 +41,7 @@ h2 {
 
 .main-heading {
     color: white;
-    border-bottom: 1% solid;
+    border-bottom: 5px solid;
     margin-top: 6%;
     margin-left: 2%;
     font-size: 2em;
@@ -62,7 +61,7 @@ a {
         position: sticky;
         padding-bottom: 1%;
         border-bottom: 3px solid rgb(0, 109, 128);
-        max-width: 960px center;
+        max-width: 960px;
     }
 }
 
