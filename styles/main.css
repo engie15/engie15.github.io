@@ -186,4 +186,7 @@ img {
 
 blockquote {
     font-style: italic;
+    padding: 5px 2px 2px 2px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
 }
