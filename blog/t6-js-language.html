@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Te Ururangi Journey</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalise/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  
+  <body>
+      <!--Start of Nav bar--> 
+      <nav class="navbar">
+        <div class="container">
+          <div class="six columns">
+              <h4 class="navbarname">ENGIE MATENE</h4>
+          </div>
+          <div class="six columns">
+              <ul style="list-style: none;">
+                <li class="toplinks">
+                  <a class="top" href="../index.html">Home</a>
+                </li>  
+                <li class="toplinks">
+                  <a class="top" href="about.html">About</a>
+                </li>
+                <li class="toplinks">
+                  <a class="top" href="portfolio.html">Portfolio</a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+      <!--End of Nav bar-->
+      <div class="container">
+        <!--Header section-->
+        <section class="header">
+          <div class="row">
+            <div class="twelve columns">
+              <h1>Toku haerenga Te Ururangi</h1>
+            </div>
+          </div>
+        </section>
+        <!--Blog Content starts here-->
+        <div class="row">
+          <div class="twelve columns title">
+            <h2>Blog#12 Javascript Language</h2>
+          </div>
+          <div class="twelve columns">
+            <h3>Parentheses ( )</h3>
+              <p class="blog-content">
+                Parentheses have multiple functions that relates to <code>functions</code> and structures.  They can be used to:
+              </p>
+                <ol>
+                    <li>
+                      Group expressions.  E.g. <code>var x = (4 – 3) * 2;</code>
+                    </li>
+                    <li>
+                      Contain expressions.  E.g. <code>if (x < 20) { ...</code>
+                    </li>
+                    <li>
+                      Contain a list of parameters  E.g. <code>array(x, 0, y, 100)</code>
+                    </li>
+                </ol>
+            <h3>Brackets [ ]</h3>  
+              <p class="blog-content">
+                Like parentheses, brackets have multiples functions as well but they differ to parentheses.  
+                Brackets can be used to:  
+              </p>
+                <ol>
+                    <li>
+                      Notate/write an array.  E.g. <code>person[name, age, height]</code>
+                    </li>
+                    <li>
+                      Access an array.  E.g. <code>person[0] = ‘Engie’</code>
+                    </li>
+                    <li>
+                      Access an objects properties.  E.g.<br>
+                      <code>var person {}</code><br><code>person['name'] = 'Engie';</code><br><code>person['age'] = 30;</code>
+                      <br><code>console.log(person['name'];</code><br><code>//expected output is 'Engie'</code>
+                    </li>
+                </ol>
+            <h3>Braces { }</h3>
+              <p class="blog-content">
+                Braces {} can be used to:
+              </p>
+                <ol>
+                  <li>
+                    Notate/write an object or the opening of a block statement. E.g. <code>var person = { ‘name’ : ‘Engie Matene’}</code>
+                  </li>
+                  <li>
+                    Group altogether blocks of code or statements to be executed as a group.  E.g. <code>{</code><br><code>var name = ‘Engie’;</code>
+                    <br><code>var age = ‘30’;</code><br><code>}</code>
+                  </li>
+                </ol>
+            <h3>Single quotes '' and Double quotes ""</h3>
+              <p class="blog-content">
+                I’m going to answer single and double quotes together because in Javascript essentially, they mean the same thing.  Single and double 
+                quotes are used to declare string values in JS code.<br>
+                <br>E.g.<br> <code>var firstName = ‘Engie’;</code><br>
+                <code>var lastName = “Matene”;</code><br>
+                <br>Notice how in the firstName variable I used single quotes and the lastName variable I used double quotes?  They will both work in code 
+                but the thing to remember is when using single quotes, the pair must be both single and vice versa with double quotes.  You do not want 
+                to pair a single quote with a double quote.<br>
+                <br>E.g. <code>var firstName = ‘Engie“ //incorrect use of single and double quotes.</code>
+              </p>
+          </div>
+        </div>
+        <!--Bottom banner starts here-->         
+        <div class="bottom-banner">
+          <div class="container">
+           <div class="row">
+             <div class="four columns linkedin">
+                <script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+                  <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="engie-matene-90a1617a">
+                    <a class="bottom" href='https://au.linkedin.com/in/engie-matene-90a1617a?trk=profile-badge' style="text-decoration:none;">Linkedin</a>
+                  </div>
+             </div>
+             <div class="four columns index-page">
+               <a class="bottom" href="../index.html">Home</a>
+             </div>
+             <div class="four columns index-page">
+              <a class="bottom">This website is a <abbr title="Work in progress">WIP</abbr></a>
+             </div>
+           </div>
+          </div>
+         </div>
+      </div>
+  </body>
+</html>
+<!--List content unordered use ul li class="content".  This will style properly.-->
+<!--When making links use the a class="top", for top links, a class="bottom", for bottom links-->
+
+<!--Abbreviation templates to use throughout blog.
+<abbr title="JavaScript">JS</abbr> 
+<abbr title="Cascade Style Sheets">CSS</abbr>
+<abbr title="Hypertext Markup Language">HTML</abbr>-->
