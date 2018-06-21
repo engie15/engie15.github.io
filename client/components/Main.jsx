@@ -8,7 +8,7 @@ class Main extends React.Component {
 
     render() {
         return (<div>
-                <h1>This is the Main component</h1>
+                <h1 className="title has-text-info">This is the Main component</h1>
                 <Me />
                 <Projects />
                 <You />
