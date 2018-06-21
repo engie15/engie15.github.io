@@ -1,3 +1,5 @@
+/* Do not change the styling in this main.css.  This is styling for the old version of my website.  Please do not touch. */
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -193,4 +195,8 @@ blockquote {
 
 .fresh-prince {
     color: rgb(0, 109, 128);
+}
+
+#app {
+    background-color: black;
 }

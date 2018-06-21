@@ -8,32 +8,14 @@ import You from './You'
 
 const App = () => (
     <Router>
-        <div>
+        <div className="has-background-warning" >
             <Route exact path ='/' component={Main} />
-            {/* <Route path="/main" component={Main} /> */}
+            <Route path="/main" component={Main} />
             <Route path="/me" component={Me} />
             <Route path="/projects" component={Projects} />
             <Route path="/you" component={You} />         
         </div>
     </Router>
 )
-
-// class App extends React.Component {
-
-//     render() {
-//         return (
-//         <React.Fragment>
-//             <Router>
-//                     <Route exact path ='/' component={Main} />
-//                     {/* <Route path="/main" component={Main} />
-//                     <Route path="/me" component={Me} />
-//                     <Route path="/projects" component={Projects} />
-//                     <Route path="/you" component={You} /> */}
-//             </Router>
-//         </React.Fragment>
-//         )
-//     }
-
-// }
 
 export default App
