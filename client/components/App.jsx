@@ -8,7 +8,7 @@ import You from './You'
 
 const App = () => (
     <Router>
-        <div className="has-background-warning" >
+        <div>
             <Route exact path ='/' component={Main} />
             <Route path="/main" component={Main} />
             <Route path="/me" component={Me} />
